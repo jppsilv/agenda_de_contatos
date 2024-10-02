@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #83a6d4;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: -30px;
+}
+
+header img {
+    height: 70px;
+    border-radius: px;
+    margin-right: 16px;
+    
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #ecebe4; 
+    border-bottom: 2px solid #000;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.nome {
+    margin-left: 55px;
+}
+
+.numero {
+    margin-left: 55px;
+}
+
+
+form button {
+    background-color: #2cdf09;
+    color: #360a0a;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 35px;
+    border-radius: 60px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+table td img {
+    height: 30px;
+}
+
+table th {
+    border-bottom: 5px solid #050303;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(8, 4, 4, 0.1);
+}
+
+.rodape {
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
